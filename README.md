@@ -6,7 +6,7 @@ A collection of utility methods/functions frequently used in building a web appl
 List of Functions
 -----------------
 
-WebUtil.post(String url, Map<String, String> params);
+``WebUtil.post(String url, Map<String, String> params);``
 
 
-WebUtil.get(String url, Map<String, String> params);
+``WebUtil.get(String url, Map<String, String> params);``
