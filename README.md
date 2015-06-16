@@ -10,7 +10,8 @@ Every methods returns Apache's `HttpResponse` object. With this object,
 we can get the status code, headers, and content of the response.
 
 Methods:
-``HttpUtil.post(String url, Map<String, String> params);``
+```java
+HttpUtil.post(String url, Map<String, String> params);```
 
 ``HttpUtil.get(String url, Map<String, String> params);``
 
