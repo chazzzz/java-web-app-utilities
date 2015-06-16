@@ -11,15 +11,17 @@ we can get the status code, headers, and content of the response.
 
 Methods:
 ```java
-HttpUtil.post(String url, Map<String, String> params);```
+HttpUtil.post(String url, Map<String, String> params);
 
-``HttpUtil.get(String url, Map<String, String> params);``
+HttpUtil.get(String url, Map<String, String> params);
 
-``HttpUtil.get(String url, Map<String, String> params, Map<String, String> headers);``
+HttpUtil.get(String url, Map<String, String> params, Map<String, String> headers);
 
-``HttpUtil.postJson(String url, String jsonData, Map<String, String> headers);``
+HttpUtil.postJson(String url, String jsonData, Map<String, String> headers);
 
-``HttpUtil.delete(String url, Map<String, String> headers);``
+HttpUtil.delete(String url, Map<String, String> headers);
+
+```
 
 To get the String content of the HttpResponse, use the method:
 
